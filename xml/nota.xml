@@ -1,1 +1,14 @@
-
+<nfe>
+    <det>
+        <prod>
+            <xProd>Hamburguer</xProd>
+            <vProd>25.00</vProd>
+        </prod>
+    </det>
+    <det>
+        <prod>
+            <xProd>Pizza</xProd>
+            <vProd>50.00</vProd>
+        </prod>
+    </det>
+</nfe>

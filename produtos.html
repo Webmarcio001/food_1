@@ -1,0 +1,13 @@
+<h2>Produtos</h2>
+
+<form method="POST">
+<input name="nome" placeholder="Nome">
+<input name="categoria" placeholder="Categoria">
+<input name="preco" placeholder="Preço">
+<input name="estoque" placeholder="Estoque">
+<button>Salvar</button>
+</form>
+
+{% for p in produtos %}
+<p>{{p[1]}} - R$ {{p[3]}}</p>
+{% endfor %}

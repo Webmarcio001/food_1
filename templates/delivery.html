@@ -1,1 +1,12 @@
+<h2>Delivery</h2>
 
+<form method="POST">
+<input name="cliente" placeholder="Cliente">
+<input name="produto" placeholder="Produto">
+<input name="valor" placeholder="Valor">
+<button>Enviar</button>
+</form>
+
+{% for p in pedidos %}
+<p>{{p[1]}} - {{p[2]}} - {{p[4]}}</p>
+{% endfor %}
